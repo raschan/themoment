@@ -21,6 +21,7 @@
 		6BA2599B191CCCB000530CEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA2597D191CCCB000530CEF /* UIKit.framework */; };
 		6BA259A3191CCCB100530CEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BA259A1191CCCB100530CEF /* InfoPlist.strings */; };
 		6BA259A5191CCCB100530CEF /* The_MomentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA259A4191CCCB100530CEF /* The_MomentTests.m */; };
+		6BA259B0191CD3CA00530CEF /* hmlCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA259AF191CD3CA00530CEF /* hmlCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +35,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6BA25976191CCCB000530CEF /* The Moment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Moment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA25976191CCCB000530CEF /* TheMoment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMoment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BA25979191CCCB000530CEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6BA2597B191CCCB000530CEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6BA2597D191CCCB000530CEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6BA25981191CCCB000530CEF /* The Moment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Moment-Info.plist"; sourceTree = "<group>"; };
+		6BA25981191CCCB000530CEF /* TheMoment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheMoment-Info.plist"; sourceTree = "<group>"; };
 		6BA25983191CCCB000530CEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6BA25985191CCCB000530CEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6BA25987191CCCB000530CEF /* The Moment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The Moment-Prefix.pch"; sourceTree = "<group>"; };
+		6BA25987191CCCB000530CEF /* TheMoment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheMoment-Prefix.pch"; sourceTree = "<group>"; };
 		6BA25988191CCCB000530CEF /* hmlAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hmlAppDelegate.h; sourceTree = "<group>"; };
 		6BA25989191CCCB000530CEF /* hmlAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hmlAppDelegate.m; sourceTree = "<group>"; };
 		6BA2598C191CCCB000530CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6BA2598E191CCCB000530CEF /* hmlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hmlViewController.h; sourceTree = "<group>"; };
 		6BA2598F191CCCB000530CEF /* hmlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hmlViewController.m; sourceTree = "<group>"; };
 		6BA25991191CCCB000530CEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6BA25997191CCCB000530CEF /* The MomentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The MomentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA25997191CCCB000530CEF /* TheMomentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheMomentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BA25998191CCCB000530CEF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6BA259A0191CCCB100530CEF /* The MomentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The MomentTests-Info.plist"; sourceTree = "<group>"; };
+		6BA259A0191CCCB100530CEF /* TheMomentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheMomentTests-Info.plist"; sourceTree = "<group>"; };
 		6BA259A2191CCCB100530CEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6BA259A4191CCCB100530CEF /* The_MomentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_MomentTests.m; sourceTree = "<group>"; };
+		6BA259AE191CD3CA00530CEF /* hmlCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmlCard.h; sourceTree = "<group>"; };
+		6BA259AF191CD3CA00530CEF /* hmlCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hmlCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,13 +90,16 @@
 				6BA25978191CCCB000530CEF /* Frameworks */,
 				6BA25977191CCCB000530CEF /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
 		};
 		6BA25977191CCCB000530CEF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6BA25976191CCCB000530CEF /* The Moment.app */,
-				6BA25997191CCCB000530CEF /* The MomentTests.xctest */,
+				6BA25976191CCCB000530CEF /* TheMoment.app */,
+				6BA25997191CCCB000530CEF /* TheMomentTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +125,8 @@
 				6BA2598F191CCCB000530CEF /* hmlViewController.m */,
 				6BA25991191CCCB000530CEF /* Images.xcassets */,
 				6BA25980191CCCB000530CEF /* Supporting Files */,
+				6BA259AE191CD3CA00530CEF /* hmlCard.h */,
+				6BA259AF191CD3CA00530CEF /* hmlCard.m */,
 			);
 			path = "The Moment";
 			sourceTree = "<group>";
@@ -126,10 +134,10 @@
 		6BA25980191CCCB000530CEF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6BA25981191CCCB000530CEF /* The Moment-Info.plist */,
+				6BA25981191CCCB000530CEF /* TheMoment-Info.plist */,
 				6BA25982191CCCB000530CEF /* InfoPlist.strings */,
 				6BA25985191CCCB000530CEF /* main.m */,
-				6BA25987191CCCB000530CEF /* The Moment-Prefix.pch */,
+				6BA25987191CCCB000530CEF /* TheMoment-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +154,7 @@
 		6BA2599F191CCCB100530CEF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6BA259A0191CCCB100530CEF /* The MomentTests-Info.plist */,
+				6BA259A0191CCCB100530CEF /* TheMomentTests-Info.plist */,
 				6BA259A1191CCCB100530CEF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6BA25975191CCCB000530CEF /* The Moment */ = {
+		6BA25975191CCCB000530CEF /* TheMoment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BA259A8191CCCB100530CEF /* Build configuration list for PBXNativeTarget "The Moment" */;
+			buildConfigurationList = 6BA259A8191CCCB100530CEF /* Build configuration list for PBXNativeTarget "TheMoment" */;
 			buildPhases = (
 				6BA25972191CCCB000530CEF /* Sources */,
 				6BA25973191CCCB000530CEF /* Frameworks */,
@@ -167,14 +175,14 @@
 			);
 			dependencies = (
 			);
-			name = "The Moment";
+			name = TheMoment;
 			productName = "The Moment";
-			productReference = 6BA25976191CCCB000530CEF /* The Moment.app */;
+			productReference = 6BA25976191CCCB000530CEF /* TheMoment.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6BA25996191CCCB000530CEF /* The MomentTests */ = {
+		6BA25996191CCCB000530CEF /* TheMomentTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BA259AB191CCCB100530CEF /* Build configuration list for PBXNativeTarget "The MomentTests" */;
+			buildConfigurationList = 6BA259AB191CCCB100530CEF /* Build configuration list for PBXNativeTarget "TheMomentTests" */;
 			buildPhases = (
 				6BA25993191CCCB000530CEF /* Sources */,
 				6BA25994191CCCB000530CEF /* Frameworks */,
@@ -185,9 +193,9 @@
 			dependencies = (
 				6BA2599D191CCCB000530CEF /* PBXTargetDependency */,
 			);
-			name = "The MomentTests";
+			name = TheMomentTests;
 			productName = "The MomentTests";
-			productReference = 6BA25997191CCCB000530CEF /* The MomentTests.xctest */;
+			productReference = 6BA25997191CCCB000530CEF /* TheMomentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +204,7 @@
 		6BA2596E191CCCB000530CEF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = hml;
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = ABFinformatika;
 				TargetAttributes = {
@@ -205,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6BA25971191CCCB000530CEF /* Build configuration list for PBXProject "The Moment" */;
+			buildConfigurationList = 6BA25971191CCCB000530CEF /* Build configuration list for PBXProject "TheMoment" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +226,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6BA25975191CCCB000530CEF /* The Moment */,
-				6BA25996191CCCB000530CEF /* The MomentTests */,
+				6BA25975191CCCB000530CEF /* TheMoment */,
+				6BA25996191CCCB000530CEF /* TheMomentTests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,6 +261,7 @@
 				6BA25990191CCCB000530CEF /* hmlViewController.m in Sources */,
 				6BA2598A191CCCB000530CEF /* hmlAppDelegate.m in Sources */,
 				6BA25986191CCCB000530CEF /* main.m in Sources */,
+				6BA259B0191CD3CA00530CEF /* hmlCard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +278,7 @@
 /* Begin PBXTargetDependency section */
 		6BA2599D191CCCB000530CEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6BA25975191CCCB000530CEF /* The Moment */;
+			target = 6BA25975191CCCB000530CEF /* TheMoment */;
 			targetProxy = 6BA2599C191CCCB000530CEF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -378,9 +387,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "The Moment/The Moment-Prefix.pch";
-				INFOPLIST_FILE = "The Moment/The Moment-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "The Moment/TheMoment-Prefix.pch";
+				INFOPLIST_FILE = "The Moment/TheMoment-Info.plist";
+				PRODUCT_NAME = TheMoment;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,9 +400,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "The Moment/The Moment-Prefix.pch";
-				INFOPLIST_FILE = "The Moment/The Moment-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "The Moment/TheMoment-Prefix.pch";
+				INFOPLIST_FILE = "The Moment/TheMoment-Info.plist";
+				PRODUCT_NAME = TheMoment;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,8 +422,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "The MomentTests/The MomentTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "The MomentTests/TheMomentTests-Info.plist";
+				PRODUCT_NAME = TheMomentTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,8 +440,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "The Moment/The Moment-Prefix.pch";
-				INFOPLIST_FILE = "The MomentTests/The MomentTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "The MomentTests/TheMomentTests-Info.plist";
+				PRODUCT_NAME = TheMomentTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -441,7 +450,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6BA25971191CCCB000530CEF /* Build configuration list for PBXProject "The Moment" */ = {
+		6BA25971191CCCB000530CEF /* Build configuration list for PBXProject "TheMoment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6BA259A6191CCCB100530CEF /* Debug */,
@@ -450,21 +459,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6BA259A8191CCCB100530CEF /* Build configuration list for PBXNativeTarget "The Moment" */ = {
+		6BA259A8191CCCB100530CEF /* Build configuration list for PBXNativeTarget "TheMoment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6BA259A9191CCCB100530CEF /* Debug */,
 				6BA259AA191CCCB100530CEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6BA259AB191CCCB100530CEF /* Build configuration list for PBXNativeTarget "The MomentTests" */ = {
+		6BA259AB191CCCB100530CEF /* Build configuration list for PBXNativeTarget "TheMomentTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6BA259AC191CCCB100530CEF /* Debug */,
 				6BA259AD191CCCB100530CEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
